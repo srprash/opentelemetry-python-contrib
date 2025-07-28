@@ -38,6 +38,9 @@ aws_eks = "opentelemetry.sdk.extension.aws.resource.eks:AwsEksResourceDetector"
 aws_elastic_beanstalk = "opentelemetry.sdk.extension.aws.resource.beanstalk:AwsBeanstalkResourceDetector"
 aws_lambda = "opentelemetry.sdk.extension.aws.resource._lambda:AwsLambdaResourceDetector"
 
+# TODO: Add an entry-point for the aws auth as per this change
+# https://github.com/open-telemetry/opentelemetry-python/pull/4689
+
 [project.urls]
 Homepage = "https://github.com/open-telemetry/opentelemetry-python-contrib/tree/main/sdk-extension/opentelemetry-sdk-extension-aws"
 Repository = "https://github.com/open-telemetry/opentelemetry-python-contrib"
